@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>checks the weather</description>
+    <developerName>Weather_Info</developerName>
+    <genAiFunctions>
+        <functionName>Check_Weather</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>if asked, check the weather</description>
+        <developerName>instruction_ifaskedche0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifaskedche0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Weather Info</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>your job is to check the weather</scope>
+</GenAiPlugin>

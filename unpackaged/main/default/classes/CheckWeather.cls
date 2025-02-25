@@ -1,6 +1,5 @@
 public with sharing class CheckWeather {
     @InvocableMethod(
-        label='Check Weather'
         description='Check weather at Coral Cloud Resorts at a specific date'
     )
     public static List<WeatherResponse> getWeather(
