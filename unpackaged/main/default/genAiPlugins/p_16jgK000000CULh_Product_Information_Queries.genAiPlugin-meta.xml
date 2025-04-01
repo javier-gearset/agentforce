@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>Answer questions about product details and specifications.</description>
+    <developerName>p_16jgK000000CULh_Product_Information_Queries</developerName>
+    <genAiFunctions>
+        <functionName>CustomKnowledgeAction_1742567103744</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the query is about product details, use CustomKnowledgeAction_1742567103744.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Always provide accurate and up-to-date information.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Product Information Queries</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only provide detailed information about products, including features and specifications.</scope>
+</GenAiPlugin>

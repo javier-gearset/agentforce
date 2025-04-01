@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
         <fullName>v1</fullName>
         <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
         <botDialogs>
             <botSteps>
                 <botMessages>
-                    <message>Hi! I'm Einstein, an AI assistant. I can do things like search for information, summarize records, and draft and revise emails. What can I help you with?</message>
-                    <messageIdentifier>5b672b2e-3149-4240-bf77-6c5ee6a29a42</messageIdentifier>
+                    <message>Hi! I&#39;m Agentforce, an AI assistant. I can do things like search your Salesforce data or the internet, edit your Salesforce records, and draft or revise emails and fields. Ask me &quot;What else can you do?&quot; to see how I can help simplify your work day.</message>
+                    <messageIdentifier>f32a343b-f264-4d8c-9d30-4bf9b37b21c8</messageIdentifier>
                 </botMessages>
-                <stepIdentifier>72fc764c-da33-4da0-b17c-32e09e239a1a</stepIdentifier>
+                <stepIdentifier>dcc8ec2d-49c2-48e1-ab2c-2928445ace57</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
-                <stepIdentifier>83e60ed0-23ac-4a75-95e3-0f50034278b0</stepIdentifier>
+                <stepIdentifier>81a61ed2-4472-4e42-a84f-e588cc554c7d</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>Welcome</developerName>
@@ -24,13 +24,13 @@
             <botSteps>
                 <botMessages>
                     <message>Something went wrong. Try again.</message>
-                    <messageIdentifier>7e1345f7-ed37-4dc9-98b8-a7082a71bdab</messageIdentifier>
+                    <messageIdentifier>ba27ae52-f0ff-4a13-943a-9bc8e4a1ca9e</messageIdentifier>
                 </botMessages>
-                <stepIdentifier>af780190-ec3e-4a1f-ad3c-f0b3c15ff11b</stepIdentifier>
+                <stepIdentifier>61907d44-2483-4876-ae76-6eb331c8d985</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
-                <stepIdentifier>63fcad19-29fe-4cda-9b89-cc1ed2a46f12</stepIdentifier>
+                <stepIdentifier>99e54c18-7bb5-4269-a1ed-8f12a50953f3</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>Rich_Content_Error_Handling</developerName>
@@ -48,13 +48,18 @@
         </conversationSystemDialogs>
         <conversationVariables>
             <dataType>Text</dataType>
+            <developerName>currentAppName</developerName>
+            <label>Current App Name</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
             <developerName>currentObjectApiName</developerName>
             <label>Current Object Api Name</label>
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
-            <developerName>currentAppName</developerName>
-            <label>Current App Name</label>
+            <developerName>currentPageType</developerName>
+            <label>Current Page Type</label>
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
@@ -63,8 +68,8 @@
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
-            <developerName>currentPageType</developerName>
-            <label>Current Page Type</label>
+            <developerName>VerifiedCustomerId</developerName>
+            <label>Verified Customer ID</label>
         </conversationVariables>
         <entryDialog>Welcome</entryDialog>
         <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
